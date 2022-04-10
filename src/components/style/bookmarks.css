@@ -1,0 +1,115 @@
+.bookmarkshead a{
+    background-color: #202125;
+    color: white;
+    margin-right: 5px;
+}
+.bookmarkshead{
+    border-bottom: 2px solid #202125 ;
+}
+.bookmarksimgcont{
+    width: 500px;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    max-height: 150px;
+    
+   
+  
+   
+
+}
+.bookmarkdet{
+    max-height: 150px;
+}
+.bookmarkdet h4{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    white-space: break-spaces;
+}
+.bookmarksimgcont img{
+   display: block;
+    max-width: 100%;
+    width: 100%;
+    
+ 
+}
+.bookmarkcontainer {
+    background-color: #202125;
+    color: white;
+    border-radius: 1px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, .125);
+
+}
+
+.bookmarkcontainer:hover {
+    background-color: #202125;
+    color: white;
+    border-radius: 1px;
+    cursor: pointer;
+
+}
+
+.bookmarkcontainer h4 {
+    font-size: 1em;
+    letter-spacing: normal;
+    font-weight: 600;
+    padding-bottom: 3px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    border-bottom: 1px solid whitesmoke;
+
+    padding: auto;
+
+}
+
+.bookmarkcontainer p {
+    font-size: 0.7em;
+    letter-spacing: normal;
+    color: rgb(225, 222, 217);
+    padding: 3px 0;
+    margin-top: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.bookmarkcontainer h5 {
+    font-size: 0.9em;
+    letter-spacing: normal;
+    color: white;
+    padding: 3px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+
+.bookmarkcontainer h6 {
+    font-size: 13px;
+    letter-spacing: normal;
+    color: white;
+    padding: 3px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+   
+
+}
+.removeunderline {
+    border-bottom: none !important;
+}
+
+.removeshadow {
+    box-shadow: none !important;
+    border: none!important;
+}

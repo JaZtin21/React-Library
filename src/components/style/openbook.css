@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bookdetailcontainer{
+    margin-top: 56px;
+    position: relative;
+    background-color: #202125;
+}
+.openbookimage{
+    max-height: 266px;
+    min-height: 207px;
+  
+}
+.bookimge{
+    display: flex;
+   
+    justify-content: center;
+}
+.maxwidthopen{
+    max-width: 1160px;
+    margin: 0px auto;
+    z-index:2;
+    position: relative;
+    color:white;
+}
+.openbooktitle{
+    font-size: 1.8em;
+    font-weight: 600;
+
+}
+.openbookauthor{
+    margin-left: 5px;
+    letter-spacing: normal;
+}
+.openbookgenre{
+    font-size: 0.8em;
+    letter-spacing: normal;
+}
+.genretext{
+    border: none!important;
+    font-size: 0.9em!important;
+    letter-spacing: normal;
+    font-weight: 600;
+
+}
+.openbooksummary{
+    margin-left: 5px;
+    letter-spacing: normal;
+    font-size: 0.9em !important;
+
+    
+}
+.openbookclassname{
+    font-weight: 600;
+    letter-spacing: normal;
+   
+}
+.moredetails{
+    background: rgba(255, 255, 255, .1);
+}
+.moredetails p{
+    margin: 8px 0;
+    font-size: 0.8em;
+    letter-spacing: normal;
+}
+.openbookbuttons a{
+    border: 1px solid #a43033;
+    border-radius: 30px;
+    background-color:#a43033 ;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 0;
+
+}
+.openbookbuttons a:hover{
+    cursor: pointer;
+    background-color:#912a2e;
+}
+.openbookbuttons{
+    flex-wrap: wrap;
+}
+.openbookgenre:hover{
+    cursor: pointer;
+}
+.youmaylike{
+    max-width: 1160px;
+    margin: 0 auto;
+}

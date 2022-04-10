@@ -1,0 +1,69 @@
+
+
+.app-menu {
+    color: white;
+    height: 100vh;
+    width: 260px;
+    background-color: #202125;
+    z-index: 200;
+
+    transform: translateX(-100%);
+    transition: 0.3s;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    display: flex;
+   
+    flex-direction: column!important;
+
+}
+.menuheader ul{
+    display: flex;
+    flex-direction: column!important;
+}
+.menu-open {
+    transform: translateX(0%);
+}
+.menuheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    align-self: flex-start!important;
+    justify-content: center;
+    padding-right: 10px;
+    
+    
+}
+.menuheader svg{
+    margin-right: 10px;
+    
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 6px 3px;
+    height: 30px;
+    cursor: pointer;
+
+}
+.sidemenu{
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+    width: 100%;
+    margin-left: 0!important;
+    justify-content: flex-start!important;
+    padding-left: 20px;
+
+}
+.sidemenu h2{
+    font-weight: 500!important;
+    font-size: 1.0em!important;
+   
+}
+.sidemenu h2:hover {
+    color:rgb(211, 60, 60);
+    cursor: pointer;
+
+}

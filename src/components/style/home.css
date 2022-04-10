@@ -1,0 +1,363 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.topnavcont {
+  background-color: #202125;
+
+  height: 40px;
+}
+
+.navcont {
+  background-color: #202125;
+}
+.navcontlist {
+  max-width: 1200px;
+  overflow: hidden;
+  position: relative;
+  background: #202125;
+  margin: 0px auto;
+  color: white;
+}
+.navcontul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+}
+.navcontul ul{
+  display: flex;
+  width: 100%;
+  justify-content:space-between;
+}
+.navcontlist ul div{
+  display: flex;
+  flex-direction: row;
+}
+.navcontlist li {
+  margin-right:20px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navcontlist li a {
+  font-size: 15px;
+  font-weight: 500;
+}
+.navcontlist li a:hover{
+  color:rgb(211, 60, 60);
+  cursor: pointer;
+}
+.searchCont:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(32, 33, 37);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(32, 33, 37, 1) 0%,
+    rgba(32, 33, 37, 0) 64%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(32, 33, 37, 1) 0%,
+    rgba(32, 33, 37, 0) 64%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202125",endColorstr="#202125",GradientType=1);
+}
+.searchCont {
+  height: 350px;
+  background-image: url("./images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.logincont{
+
+  height: calc(100vh - 130px)!important;
+  
+}
+.centerCont {
+  z-index: 3;
+  position: relative;
+  display: flex;
+  max-width: 900px;
+  overflow: hidden;
+  margin: 0px auto;
+  color: white;
+}
+.centerContCont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  justify-content: center;
+  
+}
+.centerContCont h2{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.searchbtn{
+  position:absolute;
+  right: 0;
+  top:0;
+  bottom: 0;
+  background-color: #a43033;
+  margin: 2px;
+  
+}
+.browsebtncenter{
+  align-items: center;
+  justify-content: center;
+  
+}
+.brswsebton{
+  border: 1px solid white;
+}
+.brswsebton:hover {
+  border: 1px solid white;
+  background-color: #a43033;
+}
+.logohome{
+  height:50px;
+  width: 50px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.h2h{
+  display: flex;
+  align-items: center;
+  
+}
+@media only screen and (max-width: 600px) {
+  .h2h {
+    display: flex;
+    align-items: center;
+    font-family: 'IM Fell DW Pica SC',
+      serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: normal;
+
+
+  }
+
+  .centerContCont h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  .recentContCont h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: normal;
+  }
+}
+
+.recentlyCont {
+ 
+  
+  
+  position: relative;
+}
+
+.recentCont {
+  z-index: 3;
+  position: relative;
+  display: flex;
+  max-width: 1160px;
+  overflow: hidden;
+  margin: 0px auto;
+  color: white;
+}
+
+.recentContCont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  
+  
+
+}
+.recentContCont h3{
+  font-size: 1.7em;
+  font-weight: 700;
+  letter-spacing: normal;
+
+
+}
+.recentcard{
+  
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, .125);
+
+}
+.imagecont{
+  height:240px;
+  overflow: hidden;
+  background-color: #202125;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.imagecontcont{
+  
+  width: 100% !important;
+ 
+}
+.cardauthor {
+  font-weight:400;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: scroll;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  
+  margin-top: 0.2em;
+ 
+
+
+}
+
+.cardtitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1em;
+  margin-top: 0.3em;
+  letter-spacing: normal;
+ 
+
+}
+.slick-dots {
+  top: 300px;
+  
+}
+
+
+.bookimagecontainerhome {
+
+  flex: 70%;
+  z-index: 2;
+}
+
+.bookdescriptioncontainerhome {
+
+  flex: 35%;
+  z-index: 2;
+}
+
+.bookimagehome {
+
+  width: 240px;
+  height: 73%;
+  align-self: flex-end;
+  box-shadow: -3px 0 2px 0 rgba(0, 0, 0, 0.25);
+
+  background-color: white;
+}
+
+.bookdescriptionhome {
+
+  width: 80%;
+  height: 80%;
+
+
+
+
+}
+.bookdescriptionhome h2{
+
+  font-size: 1.8em;
+  font-weight: 600;
+  word-spacing: normal;
+  letter-spacing: normal;
+  color: white;
+
+
+
+
+
+}
+.bookdescriptionhome h5 {
+
+  font-size: 1.3em;
+  word-spacing: normal;
+letter-spacing: normal;
+color: white;
+
+
+
+}
+.featuredbox{
+  background-color: #202125;
+
+  height: 350px;
+}
+.bookimagebox{
+  letter-spacing: normal;
+}
+.blurthis{
+content: "";
+position: absolute;
+width : 100%;
+height: 100%;
+
+filter: blur(20px);
+backdrop-filter: blur(20px);
+opacity: 0.35;
+}
+.genrecircle p{
+  margin-top: 1em;
+
+  margin-right: 0.5em;
+  border: 1px solid white;
+  border-radius: 30px;
+  color: white;
+
+}
+.genrecircle{
+  flex-wrap: wrap;
+}
+#dropdownDefault svg:hover{
+  color: rgb(211, 60, 60);
+  cursor: pointer;
+
+}
+.seemorebutton{
+
+  font-family: 'Montserrat',
+  sans-serif;
+  border: 1px solid white;
+  color: rgb(0, 0, 0);
+  letter-spacing: normal; 
+  padding: 5px 10px;
+  font-size: 0.8em;
+  border-radius: 3px;
+  font-weight: 500;
+  
+
+}
+.seemorebutton:hover{
+  background-color: #a43033;
+  color: white;
+}
+
+.dimmer{
+  overflow: hidden!important;
+}

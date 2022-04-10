@@ -1,0 +1,638 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.topnavcont2 {
+    background-color: #202125;
+    position: fixed!important;
+    width: 100%;
+    z-index: 5;
+    height: 56px;
+    box-shadow: 0 0.5px 0.5px rgba(208, 206, 206, 0.045),
+    0 1px 1px rgba(123, 123, 123, 0.226);
+ 
+
+    
+}
+
+
+.navcont {
+    background-color: #202125;
+    height: 100%;
+}
+
+.navcontlist {
+    max-width: 1200px;
+    overflow: hidden;
+    position: relative;
+    background: #202125;
+    margin: 0px auto;
+    color: white;
+}
+
+.navcontul2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.navcontlist ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navcontlist li {
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.navcontlist li a {
+    font-size: 15px;
+    font-weight: 500;
+}
+.margnav{
+    margin-left: 20px;
+}
+
+.searchCont:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(32, 33, 37);
+    background: -moz-linear-gradient(180deg,
+            rgba(32, 33, 37, 1) 0%,
+            rgba(32, 33, 37, 0) 64%);
+    background: linear-gradient(180deg,
+            rgba(32, 33, 37, 1) 0%,
+            rgba(32, 33, 37, 0) 64%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202125", endColorstr="#202125", GradientType=1);
+}
+
+.searchCont {
+    height: 350px;
+    background-image: url("./images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.logincontfirst{
+   
+    background-image: url("./images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.logincontfirst:before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(32, 33, 37);
+    background: -moz-linear-gradient(180deg,
+        rgba(32, 33, 37, 1) 0%,
+        rgba(32, 33, 37, 0) 64%);
+    background: linear-gradient(180deg,
+        rgba(32, 33, 37, 1) 0%,
+        rgba(32, 33, 37, 0) 64%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202125", endColorstr="#202125", GradientType=1);
+}
+
+.centerCont {
+    z-index: 3;
+    position: relative;
+    display: flex;
+    max-width: 900px;
+    overflow: hidden;
+    margin: 0px auto;
+    color: white;
+}
+
+.centerContCont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    justify-content: center;
+
+}
+
+.centerContCont h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.searchbtn2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #a43033!important;
+    margin: 2px;
+    padding: 0 9px;
+
+}
+.searchbtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #a43033 !important;
+    margin: 2px;
+  
+
+}
+
+.browsebtncenter {
+    align-items: center;
+    justify-content: center;
+
+}
+.searchfield {
+    padding-right: 55px;
+    padding-left: 20px;
+    letter-spacing: normal;
+}
+.searchfield2{
+    padding-right: 40px;
+    padding-left: 12px;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 340px!important;
+    align-self: flex-end;
+    margin-left: 60px;
+    
+}
+
+.brswsebton {
+    border: 1px solid white;
+}
+
+.brswsebton:hover {
+    border: 1px solid white;
+    background-color: #a43033;
+}
+
+.logohome2 {
+    max-height: 40px;
+    min-width: 40px;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.h2h {
+    display: flex;
+    align-items: center;
+font-family: 'IM Fell DW Pica SC',
+serif;
+font-size: 1.7em;
+font-weight: 700;
+letter-spacing: normal;
+
+}
+@media only screen and (max-width: 600px) {
+    .h2h {
+        display: flex;
+        align-items: center;
+        font-family: 'IM Fell DW Pica SC',
+            serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        letter-spacing: normal;
+       
+    
+    }
+     .centerContCont h2 {
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+    .recentContCont h3 {
+        font-size: 1.5em!important;
+        font-weight: 700;
+        letter-spacing: normal;
+    
+    
+    }
+    .recenthead {
+        padding: 0 0.25rem;
+    }
+}
+
+.recentlyCont {
+
+min-height: calc(100vh - 24px);
+
+    position: relative;
+}
+
+.recentCont {
+    z-index: 3;
+    position: relative;
+    display: flex;
+    max-width: 1160px;
+    overflow: hidden;
+    margin: 0px auto;
+    color: white;
+}
+
+.recentContCont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+
+
+
+}
+
+.recentContCont h3 {
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: normal;
+
+
+}
+
+.recentcard {
+
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, .125);
+    height: 100%;
+    background-color: #202125;
+
+}
+
+.imagecont {
+    height: 240px;
+    background-color: #202125;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+
+}
+
+.imagecontcont {
+   
+    width: 100% !important;
+    
+    
+}
+
+.cardauthor {
+    font-weight: 400;
+    font-size:12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: scroll;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    
+    margin-top:0.3em;
+    text-align: center;
+   
+  
+  
+
+}
+
+.cardtitle {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1em;
+    margin-top:0.3em;
+    letter-spacing: normal;
+   text-align: center;
+
+}
+.carddet{
+
+    color: white;
+    align-items: center;
+    height: 51.6px!important;
+}
+
+.slick-dots {
+    top: 300px;
+
+}
+
+.bookimagecontainerhome {
+
+    flex: 70%;
+    z-index: 2;
+}
+
+.bookdescriptioncontainerhome {
+
+    flex: 35%;
+    z-index: 2;
+}
+
+.bookimagehome {
+
+    width: 240px;
+    height: 73%;
+    align-self: flex-end;
+    box-shadow: -3px 0 2px 0 rgba(0, 0, 0, 0.25);
+
+    background-color: white;
+}
+
+.bookdescriptionhome {
+
+    width: 80%;
+    height: 80%;
+
+
+
+
+}
+
+.bookdescriptionhome h2 {
+
+    font-size: 1.8em;
+    font-weight: 600;
+    word-spacing: normal;
+    letter-spacing: normal;
+    color: white;
+
+
+
+
+
+}
+
+.bookdescriptionhome h5 {
+
+    font-size: 1.3em;
+    word-spacing: normal;
+    letter-spacing: normal;
+    color: white;
+
+
+
+}
+
+.featuredbox {
+    background-color: #202125;
+
+    height: 350px;
+}
+
+.bookimagebox {
+    letter-spacing: normal;
+}
+
+.blurthis {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    filter: blur(20px);
+    backdrop-filter: blur(20px);
+    opacity: 0.35;
+}
+
+.genrecircle p {
+    margin-top: 1em;
+
+    margin-right: 0.5em;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+
+}
+
+.genrecircle {
+    flex-wrap: wrap;
+}
+.topnavmid{
+    display: flex;
+    
+    align-items: center;
+    width: 100%;
+}
+
+.loginbtnnav{
+    right: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+.topnavmid2{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: row;
+    padding: 0 5px;
+}
+.topnavmid2 div{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    
+
+
+}
+.topnavmid2 div li{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 0.9em;
+    margin: 0 15px;
+}
+.navcontlist2{
+    max-width: 1200px;
+    overflow: hidden;
+    position: relative;
+    background: #202125;
+    margin: 0px auto;
+    color: white;
+    height: 100%;
+}
+.navcontlist2 li{
+    
+    font-weight: 500;
+}
+
+.namidlogo{
+    margin-right: -15px!important;
+  
+
+}
+.searchbartop{
+    height: 38px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: right;
+    
+}
+.namidfirst{
+    margin-left: 15px;
+}
+.searchbartop form input{
+    height: 100%;
+}
+.fabar svg{
+    height: 2em!important;
+    width: 2em!important;
+    cursor: pointer;
+    
+}
+.fabar svg:hover {
+   
+    cursor: pointer;
+
+}
+.addnav{
+    margin-top: 56px;
+}
+#dropdown{
+    position: absolute!important;
+}
+.journalcontainer{
+    background-color: #202125;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, .125);
+
+}
+.journalcontainer:hover {
+    background-color: #202125;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.journalcontainer h4{
+    font-size: 1em;
+    letter-spacing: normal;
+    font-weight: 600; 
+    padding-bottom: 5px ;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    border-bottom: 1px solid whitesmoke;
+    
+    padding: auto;
+
+}
+.journalcontainer p {
+    font-size: 0.7em;
+    letter-spacing: normal;
+    color: rgb(225, 222, 217);
+    padding: 3px 0;
+    margin-top: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.journalcontainer h5{
+    font-size: 0.9em;
+    letter-spacing: normal;
+    color: white;
+    padding: 3px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+.journalcontainer h6 {
+    font-size: 0.8em;
+    letter-spacing: normal;
+    color: white;
+    padding: 3px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  
+
+}
+.removeunderline{
+    border-bottom: none!important;
+}
+.removeshadow{
+    box-shadow: none!important;
+}
+.divider {
+    /* minor cosmetics */
+    display: table;
+    font-size: 24px;
+    text-align: center;
+    width: 85%;
+    /* divider width */
+    margin: 0 auto;
+    margin-top: 20px;
+    /* spacing above/below */
+}
+
+.divider span {
+    display: table-cell;
+    position: relative;
+}
+
+.divider span:first-child,
+.divider span:last-child {
+    width: 50%;
+    top: 13px;
+    /* adjust vertical align */
+    -moz-background-size: 100% 2px;
+    /* line width */
+    background-size: 100% 2px;
+    /* line width */
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+}
+
+.divider span:first-child {
+    /* color changes in here */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#202125));
+    background-image: -webkit-linear-gradient(180deg, transparent, #202125);
+    background-image: -moz-linear-gradient(180deg, transparent, #202125);
+    background-image: -o-linear-gradient(180deg, transparent, #202125);
+    background-image: linear-gradient(90deg, transparent, #202125);
+}
+
+.divider span:nth-child(2) {
+    color: #202125;
+    padding: 0px 5px;
+    width: auto;
+    white-space: nowrap;
+}
+
+.divider span:last-child {
+    /* color changes in here */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#202125), to(transparent));
+    background-image: -webkit-linear-gradient(180deg, #202125, transparent);
+    background-image: -moz-linear-gradient(180deg, #202125, transparent);
+    background-image: -o-linear-gradient(180deg, #202125, transparent);
+    background-image: linear-gradient(90deg, #202125, transparent);
+}

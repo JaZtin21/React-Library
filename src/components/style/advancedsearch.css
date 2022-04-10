@@ -1,0 +1,94 @@
+.advancedsearchcont{
+    height: 100vh;
+    width: 100%;
+    padding-top: 56px;
+}
+.advancedsearchcont2{
+
+background-color: #202125;
+ overflow: hidden;
+ position: relative;
+}
+.advancedbox{
+    max-width: 1160px;
+    
+    background-color: #202125;
+    border-radius: 10px;
+    color: white;
+    
+    margin: 0 auto;
+}
+.advancetext{
+    max-width: 1160px;
+    margin: 10px auto;
+    color: white;
+    font-size: 1.2em;
+    
+    
+}
+.advform-group{
+     border: 1px solid #575a64;
+    align-items: center;
+    border-radius: 6px;
+}
+.advform-group input{
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.085);
+    background-color: transparent;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #f25459;
+}
+.advform-group input:focus{
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.advform-group label{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.itemtypeselect{
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.085);
+    background-color: transparent;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #f25459;
+}
+.itemtypeselect:focus{
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.itemtypeselect option{
+    background-color: #202125;
+ 
+
+}
+.genrebox{
+    border: 1px solid #575a64;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 0.7em;
+}
+.genrebox:hover{
+    cursor: pointer;
+    border:1px solid #a43033; 
+}
+.advsubmitbtn{
+    border: 1px solid #a43033;
+    background-color: #a43033;
+    color: white;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 0.9em;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+.searchresultcont{
+        max-width: 1160px;
+        min-height: 200px;
+        
+     
+        margin: 0 auto;
+}

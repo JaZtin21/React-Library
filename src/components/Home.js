@@ -119,14 +119,14 @@ const Home= () => {
         <div className='searchCont flex '>
       
          <div className='centerCont '>
-                <div className='centerContCont'>
+                <div className='centerContCont mt-11 mb-14'>
                     <h2 className='mb-4 h2h'><img className='logohome' src={require('.//style/images/logo.png')} />PUP Web Library</h2>
                    <div className=''>
                       <form className='relative'>
-                        <input className='w-full py-3 text-black searchfield' type="text"  name="keyword" placeholder="Search book..." required=""></input>
-                        <button type="submit" title="Search"  aria-label="Submit Search" className='searchbtn px-4 '><div><FaSearch/></div></button>
+                        <input className='w-full tabletlg:py-3 phone:py-2 text-black searchfield' type="text"  name="keyword" placeholder="Search book..." required=""></input>
+                        <button type="submit" title="Search"  aria-label="Submit Search" className='searchbtn tabletlg:px-4 phone:px-3'><div><FaSearch/></div></button>
                       </form>
-                      <p className='mt-4'>Search for 1000 library resources composed of books and journals that are found on the PUP CEA Library</p>
+                      <p className='mt-4'>Search for 1000 library resources composed of books and journals that can be found on the PUP CEA Library</p>
                    </div>
 
 

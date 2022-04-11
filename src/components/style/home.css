@@ -71,7 +71,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202125",endColorstr="#202125",GradientType=1);
 }
 .searchCont {
-  height: 350px;
+  
   background-image: url("./images/bg.png");
   background-size: cover;
   background-repeat: no-repeat;

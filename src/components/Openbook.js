@@ -72,7 +72,7 @@ const Openbook= () => {
          <h3 className='mb-1   h2h'>Books you may like</h3>
      
          </div>
-         <div className='w-full grid grid-row-2 desktop:grid-cols-6 laptop:grid-cols-6 tabletlg:grid-cols-4 tablet:grid-cols-3 phone:grid-cols-2 phone:gap-1 tablet:gap-1 tabletlg:gap-2 '>
+         <div className='phone:px-1 desktop:px-0 w-full grid grid-row-2 desktop:grid-cols-6 laptop:grid-cols-6 tabletlg:grid-cols-4 tablet:grid-cols-3 phone:grid-cols-2 phone:gap-1 tablet:gap-1 tabletlg:gap-2 '>
           <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">

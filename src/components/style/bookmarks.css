@@ -10,7 +10,7 @@
     background-color: #a43033;
 }
 .bookmarksimgcont{
-    width: 500px;
+    max-width: 132px;
     background-color: #ffffff;
     align-items: center;
     display: flex;
@@ -115,4 +115,18 @@
 .removeshadow {
     box-shadow: none !important;
     border: none!important;
+    min-width: 416px;
+}
+@media only screen and (max-width: 600px) {
+    .removeshadow {
+      
+        min-width: 0;
+    }
+    .bookmarksimgcont{
+        max-width: 70px;
+    }
+    .removeshadow h6{
+        padding: 0 ;
+    }
+
 }

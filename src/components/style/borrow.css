@@ -33,6 +33,11 @@
 
 
 }
+.makethisbold{
+    font-weight: 500!important;
+    letter-spacing: normal;
+}
+
 @media only screen and (max-width: 600px) {
 .optionborrow select {
     width: 100%;
@@ -43,4 +48,12 @@
     background-color: #202125;
     color: white;
     border-radius: 5px;
+}
+.stattext{
+    z-index: 2;
+    color: white;
+    left: 20px;
+    right: 0;
+    text-align: center;
+    justify-content: center;
 }

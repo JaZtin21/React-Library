@@ -20,23 +20,12 @@ const Studentlogin= () => {
             <div className='navcontlist '>
                  
             <div className='navcontul phone:py-3 tablet:py-5 laptop:py-6' >
-            <div className='ml-4  phone:flex tablet:hidden '><Menu/></div>
+            
             <ul className='phone:hidden tablet:flex flex flex-row items-center'>
           
                  <div className='margnav'>
                
-                <li>
-                    <a href=""> Home </a>
-                </li>
-                <li>
-                    <a href=""> Browse </a>
-                </li>
-                <li>
-                    <a href=""> Advanced Search </a>
-                </li>
-                  <li>
-                    <a href=""> Login </a>
-                </li>
+    
               </div>
        
             </ul>
@@ -67,11 +56,11 @@ const Studentlogin= () => {
 					
 					
 				</div>
-				<div className="modal-footer justify-content-center ">
+					<div className="modal-footer justify-content-center ">
 					
 					<input type="submit" className="btn btn-light formsubmitbtn p-2"   value="Login" ></input>
                     <div className='flex flex-col justify-center w-full my-3'>
-                    <p className='flex flex-row justify-center w-full items-center'> No account yet? <a className='mx-1 underline'>Signup here</a></p>
+                    <p className='flex flex-row justify-center w-full items-center'> No account yet? <a href='/signup' className='mx-1 underline'>Signup here</a></p>
                      <p className='flex flex-row justify-center w-full items-center'> or</p>
                       <p className='flex flex-row justify-center w-full items-center '> <a href='/adminlogin' className='mx-1 px-3 py-1 mt-1 loginadminbtn  flex flex-row items-center'><span className='mr-2'>Login as Admin</span> <FaChevronRight/></a></p>
                     </div>

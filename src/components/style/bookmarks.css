@@ -6,6 +6,9 @@
 .bookmarkshead{
     border-bottom: 2px solid #202125 ;
 }
+.bookmarkshead a:hover{
+    background-color: #a43033;
+}
 .bookmarksimgcont{
     width: 500px;
     background-color: #ffffff;

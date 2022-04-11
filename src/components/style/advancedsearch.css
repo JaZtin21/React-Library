@@ -3,6 +3,13 @@
     width: 100%;
     padding-top: 56px;
 }
+@media only screen and (max-width: 1200px) {
+.advancedsearchcont {
+
+    padding-top: 0!important;
+}
+
+}
 .advancedsearchcont2{
 
 background-color: #202125;

@@ -224,11 +224,29 @@ letter-spacing: normal;
     
     
     }
-    .recenthead {
-        padding: 0 0.25rem;
-    }
+  
 }
+.recenthead{
+    display: flex;
+    
+    width: 1160px!important;
+    
+}
+@media only screen and (max-width: 1200px) {
+  .recenthead {
+        padding: 0 0.25rem;
+        width: 100%!important;
+    }
+    .topnavcont2 {
+    
+        position: relative!important;
+    }
+    .addnav{
+        margin-top: 0!important;
+    
+    }
 
+}
 .recentlyCont {
 
 min-height: calc(100vh - 24px);

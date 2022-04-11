@@ -8,6 +8,7 @@ import { FaChevronRight } from "react-icons/fa";
 import "./style/browse.css";
 import "./style/sidemenu.css";
 import "./style/bookmarks.css";
+import "./style/borrow.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,7 +20,7 @@ import { ReactDimmer } from "react-dimmer";
     
 
 
-const Bookmarks= () => {
+const Borrow= () => {
 
 
 
@@ -87,12 +88,26 @@ const Bookmarks= () => {
          <div className='text-black recenthead recentContCont '>
                  
          <div className='flex bookmarkshead  mt-3 mb-2 flex-row  items-center'>
-         <a href='/bookmarks' style={{backgroundColor:'#a43033'}}  className='px-2 py-1'>Bookmarks</a>
-         <a href='/likedbooks' className=' px-2 py-1'>Liked Books</a>
+         <a href='/borrow' style={{backgroundColor:'#a43033'}}  className='px-2 py-1'>Borrow Status</a>
+         <a href='/requestedcopy' className=' px-2 py-1'>Requested copy</a>
 
          </div>
-         <div className=' grid laptop:grid-cols-2 tabletlg:grid-cols-1 tablet:grid-cols-1 phone:grid-cols-1 gap-1 '>
+          <div className='flex  optionborrow w-full justify-end pb-2'>						
+                          <select className='borrowstatusselect py-0   '>
+                              <option selected>All</option>
+                              <option value="1">Pending</option>
+                              <option value="2">Confirmed</option>
+                              <option value="3">Received</option>
+                              <option value="3">Returned</option>
+                         </select></div>
+
+         <div className='  grid laptop:grid-cols-2 tabletlg:grid-cols-1 tablet:grid-cols-1 phone:grid-cols-1 gap-1 '>
             
+            <p className='hidden laptop:col-span-2 phone:col-span-1 nodata px-3 pt-3 pb-10'>no data available</p>
+       
+
+            
+          
              <div className='bookmarkcontainer text-white flex flex-row px-2 py-3 relative'>
              <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/bg2.png') + ')',zIndex:"1",filter:'blur(90%)'}}>   </div>
             
@@ -177,4 +192,4 @@ const Bookmarks= () => {
 
 };
 
-export default Bookmarks;
+export default Borrow;

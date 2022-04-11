@@ -14,6 +14,9 @@ import Studentlogin from "./components/Studentlogin";
 import Bookmarks from "./components/Bookmarks";
 import Advancedsearch from "./components/Advancedsearch";
 import Adminlogin from "./components/Adminlogin";
+import Likedbooks from "./components/Likedbooks";
+import Borrow from "./components/Borrow";
+import Signup from "./components/Signup";
 
 function App() {
   return (
@@ -30,8 +33,8 @@ function App() {
             </>
           }
         />
-        </Routes>
-      <Routes>
+     
+   
         <Route
           path="/browse"
           element={
@@ -43,8 +46,8 @@ function App() {
             </>
           }
         />
-        </Routes>
-         <Routes>
+      
+    
         <Route
           path="/openbook"
           element={
@@ -56,21 +59,19 @@ function App() {
             </>
           }
         />
-        </Routes>
-        <Routes>
+  
         <Route
           path="/studentlogin"
           element={
             <>
-             
+             <Topnav/>
               <Studentlogin/>
               <Footer/>
              
             </>
           }
         />
-        </Routes>
-        <Routes>
+  
         <Route
           path="/bookmarks"
           element={
@@ -83,8 +84,7 @@ function App() {
             </>
           }
         />
-        </Routes>
-                <Routes>
+  
         <Route
           path="/advancedsearch"
           element={
@@ -97,14 +97,54 @@ function App() {
             </>
           }
         />
-        </Routes>
-         <Routes>
+    
         <Route
           path="/adminlogin"
           element={
             <>
               <Topnav/>
               <Adminlogin/>
+              <Footer/>
+             
+             
+             
+            </>
+          }
+        />
+  
+        <Route
+          path="/likedbooks"
+          element={
+            <>
+              <Topnav/>
+              <Likedbooks/>
+              <Footer/>
+             
+             
+             
+            </>
+          }
+        />
+          
+          <Route
+          path="/borrow"
+          element={
+            <>
+              <Topnav/>
+              <Borrow/>
+              <Footer/>
+             
+             
+             
+            </>
+          }
+        />
+         <Route
+          path="/signup"
+          element={
+            <>
+              <Topnav/>
+              <Signup/>
               <Footer/>
              
              

@@ -19,7 +19,7 @@ import { ReactDimmer } from "react-dimmer";
     
 
 
-const Bookmarks= () => {
+const Likedbooks= () => {
 
 
 
@@ -87,8 +87,8 @@ const Bookmarks= () => {
          <div className='text-black recenthead recentContCont '>
                  
          <div className='flex bookmarkshead  mt-3 mb-2 flex-row  items-center'>
-         <a href='/bookmarks' style={{backgroundColor:'#a43033'}}  className='px-2 py-1'>Bookmarks</a>
-         <a href='/likedbooks' className=' px-2 py-1'>Liked Books</a>
+         <a href='/bookmarks'  className='px-2 py-1'>Bookmarks</a>
+         <a href='/likedbooks' style={{backgroundColor:'#a43033'}} className=' px-2 py-1'>Liked Books</a>
 
          </div>
          <div className=' grid laptop:grid-cols-2 tabletlg:grid-cols-1 tablet:grid-cols-1 phone:grid-cols-1 gap-1 '>
@@ -177,4 +177,4 @@ const Bookmarks= () => {
 
 };
 
-export default Bookmarks;
+export default Likedbooks;

@@ -7,6 +7,11 @@
     position: relative;
     background-color: #202125;
 }
+@media only screen and (max-width: 1200px) {
+.bookdetailcontainer{
+    margin-top: 0 !important;
+}
+}
 .openbookimage{
     max-height: 266px;
     min-height: 207px;

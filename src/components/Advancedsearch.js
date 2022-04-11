@@ -32,21 +32,21 @@ const Advancedsearch= () => {
                     <div className='flex-row flex  grid grid-cols-12 gap-3'>
                     <div className="advform-group  py-2 px-3 flex flex-row  col-span-12 desktop:col-span-6 tablet:col-span-6 ">
 						<label className='mr-2 '>Title:</label>
-						<input type="text" className="form-control py-0 w-full px-0 " required="required" autoComplete="off"   ></input>
+						<input type="text" className="form-control py-0 w-full px-0 " autoComplete="off"   ></input>
 					</div>
                      <div className="advform-group  py-2 px-2 flex flex-row col-span-12 desktop:col-span-6 tablet:col-span-6 ">
 						<label className='mr-2 '>Keyword:</label>
-						<input type="text" className="form-control py-0 px-0 w-full " required="required" autoComplete="off"   ></input>
+						<input type="text" className="form-control py-0 px-0 w-full "  autoComplete="off"   ></input>
 					</div>
                     </div>
                     <div className='flex-row flex mt-2 grid grid-cols-12 gap-3'>
                     <div className="advform-group  py-2 px-3 flex flex-row  col-span-12 desktop:col-span-3 tablet:col-span-4 ">
 						<label className='mr-2 '>Author:</label>
-						<input type="text" className="form-control py-0 w-full px-0 " required="required" autoComplete="off"   ></input>
+						<input type="text" className="form-control py-0 w-full px-0 " autoComplete="off"   ></input>
 					</div>
                      <div className="advform-group  py-2 px-2 flex flex-row col-span-6 desktop:col-span-3 tablet:col-span-4 ">
 						<label className='mr-2 '>Publisher:</label>
-						<input type="text" className="form-control py-0 px-0 w-full " required="required" autoComplete="off"   ></input>
+						<input type="text" className="form-control py-0 px-0 w-full "  autoComplete="off"   ></input>
 					</div>
                     <div className="advform-group  py-2 px-3 flex flex-row  col-span-6 desktop:col-span-3 tablet:col-span-4 ">
 						<label className='mr-2 whitespace-nowrap '>Literary Form:</label>
@@ -59,7 +59,7 @@ const Advancedsearch= () => {
 					</div>
                     <div className="advform-group  py-2 px-2 flex flex-row col-span-12 desktop:col-span-3 tablet:col-span-12 ">
 						<label className='mr-2 '>ISBN:</label>
-						<input type="text" className="form-control py-0 px-0 w-full " required="required" autoComplete="off"   ></input>
+						<input type="text" className="form-control py-0 px-0 w-full "  autoComplete="off"   ></input>
 					</div>
                     </div>
                     <div className='flex-row flex mt-2 grid grid-cols-12 gap-3'>
@@ -75,9 +75,9 @@ const Advancedsearch= () => {
 					</div>
                      <div className="advform-group  py-2 px-2 flex flex-row col-span-12 desktop:col-span-8 tablet:col-span-6 ">
 						<label className='mr-2 whitespace-nowrap '>Publication Date:</label>
-						<input type="date" className="form-control py-0 px-0 w-full " required="required" autoComplete="off"   ></input>
+						<input type="date" className="form-control py-0 px-0 w-full "  autoComplete="off"   ></input>
 				        <label className='mr-2 whitespace-nowrap '>-</label>
-                        <input type="date" className="form-control py-0 px-0 w-full " required="required" autoComplete="off"   ></input>
+                        <input type="date" className="form-control py-0 px-0 w-full "  autoComplete="off"   ></input>
                 
                 	</div>
                   

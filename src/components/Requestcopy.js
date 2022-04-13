@@ -20,7 +20,7 @@ import { ReactDimmer } from "react-dimmer";
     
 
 
-const Borrow= () => {
+const Requestcopy= () => {
 
 
 
@@ -88,17 +88,16 @@ const Borrow= () => {
          <div className='text-black recenthead recentContCont '>
                  
          <div className='flex bookmarkshead  mt-3 mb-2 flex-row  items-center'>
-         <a href='/borrow' style={{backgroundColor:'#a43033'}}  className='px-2 py-1'>Borrow Status</a>
-         <a href='/requestedcopy' className=' px-2 py-1'>Requested copy</a>
+         <a href='/borrow'  className='px-2 py-1'>Borrow Status</a>
+         <a href='/requestedcopy'  style={{backgroundColor:'#a43033'}} className=' px-2 py-1'>Requested copy</a>
 
          </div>
           <div className='flex  optionborrow w-full justify-end pb-2'>						
                           <select className='borrowstatusselect py-0   '>
                               <option selected>All</option>
                               <option value="1">Pending</option>
-                              <option value="2">Confirmed</option>
-                              <option value="3">Received</option>
-                              <option value="3">Returned</option>
+                              <option value="2">Copy sent</option>
+                 
                          </select></div>
 
          <div className='  grid laptop:grid-cols-2 tabletlg:grid-cols-1 tablet:grid-cols-1 phone:grid-cols-1 gap-1 '>
@@ -117,7 +116,7 @@ const Borrow= () => {
             <div className=' relative removeshadow text-white flex flex-col px-2'  style={{zIndex:"2"}}>
              <div className='statusbar w-full flex  flex-row-reverse'>
               <div className='relative'>
-               <h5 className=' stattext flex px-3 flex-1  absolute'>Confirmed</h5>
+               <h5 className=' stattext flex px-3 flex-1  absolute'>Copy Sent</h5>
                <svg width="150" height="24">
                <path d="m 1 0 c 6 2 24 -1 30 11 c 3 5 5 13 13 13 h 105 V 0" fill="#3da450"  stroke="none" strokeWidth="1" />
   
@@ -243,4 +242,4 @@ const Borrow= () => {
 
 };
 
-export default Borrow;
+export default Requestcopy;

@@ -55,14 +55,14 @@ const Home= () => {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
        
           }
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
            
           }
         }
@@ -436,14 +436,14 @@ const Home= () => {
          <button className='seemorebutton flex items-center justify-between flex-row'><a className='mr-1'> View more</a><FaChevronRight/></button>
          </div>
         <Slider {...settings}>
-             <div className='h-full px-1 '>
+             <div className='h-full tablet:px-1 phone:px-0.5'>
             <div className="overflow-hidden recentcard ">
                   <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
             
-            <div className="px-1 carddet " style={{zIndex:"2"}}>
+            <div className="px-1 carddet phone:hidden tabletlg:block" style={{zIndex:"2"}}>
             <div className=" cardtitle ">Mountain</div>
             <p className=" cardauthor  mb-1">
             -JK Rowling
@@ -452,14 +452,14 @@ const Home= () => {
      
             </div>
           </div>
-          <div className='h-full px-1'>
+          <div className='h-full tablet:px-1 phone:px-0.5'>
             <div className="overflow-hidden recentcard ">
                   <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
             </div>
             
-            <div className="px-1 carddet " style={{zIndex:"2"}}>
+            <div className="px-1 carddet phone:hidden tabletlg:block  " style={{zIndex:"2"}}>
             <div className=" cardtitle ">Harry Potter and the Chamber of Secrets</div>
             <p className=" cardauthor  mb-1">
             -JK Rowling
@@ -468,14 +468,14 @@ const Home= () => {
      
             </div>
           </div>
-             <div className='h-full px-1'>
+             <div className='h-full tablet:px-1 phone:px-0.5'>
             <div className="overflow-hidden recentcard ">
                   <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
             </div>
             
-            <div className="px-1 carddet " style={{zIndex:"2"}}>
+            <div className="px-1 carddet phone:hidden tabletlg:block" style={{zIndex:"2"}}>
             <div className=" cardtitle ">Harry Potter and the Chamber of Secrets</div>
             <p className=" cardauthor  mb-1">
             -JK Rowling
@@ -484,14 +484,14 @@ const Home= () => {
      
             </div>
           </div>
-                     <div className='h-full px-1'>
+                     <div className='h-full tablet:px-1 phone:px-0.5'>
             <div className="overflow-hidden recentcard ">
                   <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
             </div>
             
-            <div className="px-1 carddet " style={{zIndex:"2"}}>
+            <div className="px-1 carddet phone:hidden tabletlg:block" style={{zIndex:"2"}}>
             <div className=" cardtitle ">Harry Potter and the Chamber of Secrets</div>
             <p className=" cardauthor  mb-1">
             -JK Rowling
@@ -500,14 +500,14 @@ const Home= () => {
      
             </div>
           </div>
-                      <div className='h-full px-1'>
+                      <div className='h-full tablet:px-1 phone:px-0.5'>
             <div className="overflow-hidden recentcard ">
                   <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
             </div>
             
-            <div className="px-1 carddet " style={{zIndex:"2"}}>
+            <div className="px-1 carddet phone:hidden tabletlg:block" style={{zIndex:"2"}}>
             <div className=" cardtitle ">Harry Potter and the Chamber of Secrets</div>
             <p className=" cardauthor  mb-1">
             -JK Rowling
@@ -516,14 +516,15 @@ const Home= () => {
      
             </div>
           </div>
-                     <div className='h-full px-1'>
+
+                     <div className='h-full tablet:px-1 phone:px-0.5'>
             <div className="overflow-hidden recentcard ">
                   <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
             </div>
             
-            <div className="px-1 carddet " style={{zIndex:"2"}}>
+            <div className="px-1 carddet phone:hidden tabletlg:block" style={{zIndex:"2"}}>
             <div className=" cardtitle ">Harry Potter and the Chamber of Secrets</div>
             <p className=" cardauthor  mb-1">
             -JK Rowling
@@ -532,30 +533,14 @@ const Home= () => {
      
             </div>
           </div>
-                     <div className='h-full px-1'>
+                      <div className='h-full tablet:px-1 phone:px-0.5'>
             <div className="overflow-hidden recentcard ">
                   <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
             </div>
             
-            <div className="px-1 carddet " style={{zIndex:"2"}}>
-            <div className=" cardtitle ">Harry Potter and the Chamber of Secrets</div>
-            <p className=" cardauthor  mb-1">
-            -JK Rowling
-            </p>
-            </div>
-     
-            </div>
-          </div>
-                      <div className='h-full px-1'>
-            <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
-            <div className='imagecont ' style={{zIndex:"2"}}>
-              <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
-            </div>
-            
-            <div className="px-1 carddet " style={{zIndex:"2"}}>
+            <div className="px-1 carddet phone:hidden tabletlg:block " style={{zIndex:"2"}}>
             <div className=" cardtitle ">Harry Potter and the Chamber of Secrets</div>
             <p className=" cardauthor  mb-1">
             -JK Rowling

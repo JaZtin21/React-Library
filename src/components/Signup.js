@@ -35,8 +35,8 @@ const Signup= () => {
         <div className='logincontfirst flex ' >
       
          <div className='w-full mb-5'>
-                <div className='logincont my-9'>
-                <form className=' signupform p-4'>
+                <div className='logincont mb-9 phone:px-4 tabletlg:px-0'>
+                <form className=' signupform p-4 '>
           
 
 				<div className="modal-header2 pb-4 flex items-center justify-center">				

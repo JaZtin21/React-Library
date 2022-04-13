@@ -1,0 +1,129 @@
+.inputfilebtn{
+    max-width: 178px;
+    border: 1px solid #a43033;
+    padding: 0 20px;
+    border-radius: 20px;
+    background-color: #a43033;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+
+}
+.inputfilebtn:hover{
+    background-color: #8e292c;
+    cursor: pointer;
+}
+.inputfilebtnbtn input {
+   width: 100%;
+}
+.inputfilebtnbtn:hover{
+    cursor: pointer;
+}
+.addbooklabel{
+    font-size: 1.0em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.form-groupaddbook input{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.901);
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.form-groupaddbook .textareadesc {
+    color: black;
+    font-size: 0.9em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 0.901);
+    overflow: hidden;
+    height: 40px;
+    border-radius: 4px;
+  
+}
+.form-groupaddbook textarea {
+    color: black;
+    font-size: 1.0em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 0.901);
+    height: 40px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.auto_height {
+   
+    width: 100%;
+    letter-spacing: 1px;
+}
+.form-groupaddbook{
+    letter-spacing: 1px;
+    
+}
+#react-select-2-input{
+    outline: none !important;
+    outline-offset: none !important;
+    color:black;
+    letter-spacing: 1px;
+}
+#react-select-2-listbox{
+    color: black;
+    letter-spacing: 1px;
+}
+.materialtype__control {
+    min-height: 15px!important;
+    letter-spacing: 1px;
+   
+}
+.materialtype__menu{
+
+    background-color: rgb(241, 237, 237)!important;
+    color: black!important;
+    letter-spacing: 1px;
+}
+.materialtype__value-container{
+    padding: 0px 8px !important;
+    letter-spacing: 1px;
+}
+.materialtype__input-container{
+    margin: 0!important;
+    padding: 0!important;
+    letter-spacing: 1px;
+}
+.infoaddbook{
+    height:30px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.901);
+    color: black;
+    max-width: 250px;
+    letter-spacing: 1px;
+}
+.materialtype__multi-value__remove{
+    color: rgb(255, 255, 255)!important;
+}
+.materialtype__multi-value__remove:hover {
+    color: rgb(216, 64, 64) !important;
+   
+    background-color: rgba(255, 255, 255, 0)!important;
+}
+.materialtype__multi-value{
+    border:1px solid white;
+    border-radius: 5px!important;
+    background-color: #a43033!important;
+    color:white!important;
+}
+.materialtype__multi-value__label{
+    color: white!important;
+}
+.addbooksubmit{
+    background-color: #A43033;
+    border: 1px solid white;
+    max-width: 400px;
+    border-radius: 4px;
+}
+.addbooksubmit:hover {
+    background-color: #922b2e;
+    border: 1px solid white;
+    max-width: 400px;
+    border-radius: 4px;
+    cursor: pointer;
+}

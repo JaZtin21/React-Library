@@ -30,10 +30,10 @@ const Openbook= () => {
      <div className='w-full  bookdetailcontainer  '>
       <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div>   
      <div className='maxwidthopen  flex-row flex  grid grid-cols-12 self-center'>
-     <div className='bookimge py-6 tablet:py-6 desktop:py-8  col-span-12 desktop:col-span-2 tablet:col-span-4 '>
+     <div className='bookimge laptop:my-8 phone:my-0 py-6 tablet:py-6 desktop:py-8  col-span-12 desktop:col-span-2 tablet:col-span-4 '>
          <img className='openbookimage' src={require('.//style/images/harry.jpg')} alt="No Image Preview"/>
      </div>
-     <div className='titledescription pb-2 tablet:py-4 desktop:py-8 col-span-12 desktop:col-span-7 tablet:col-span-8  px-6'>
+     <div className='titledescription laptop:my-8 phone:my-2 pb-2 tablet:py-4 desktop:py-8 col-span-12 desktop:col-span-7 tablet:col-span-8  px-6'>
          <h2 className='openbooktitle  flex phone:text-center tablet:text-left'>Harry Potter and the Sorcerer's Stone</h2>
          <h3 className='openbookauthor py-2'><span className='openbookclassname'>Author: </span> J.K. Rowling</h3>
           <div className='genrecircle inline-flex'>
@@ -51,9 +51,8 @@ const Openbook= () => {
 
      </div>
      <div className='moredetails py-4 tablet:py-6 desktop:py-8  desktop:col-span-3  phone:col-span-12 flex flex-col desktop:items-center'>
-         <div className='flex flex-col px-7 desktop:px-0'>
+         <div className='flex laptop:my-8 phone:my-2 flex-col px-7 desktop:px-0'>
          <p><span className='openbookclassname'>Material type: &nbsp; </span>Book</p>
-         <p><span className='openbookclassname'>Item type: &nbsp; </span>  Book</p>
          <p><span className='openbookclassname'>Literary Form: &nbsp; </span>  fiction</p>
          <p><span className='openbookclassname'>Publisher: &nbsp; </span>	Bloomsbury (UK)</p>
          <p><span className='openbookclassname'>Copyright date: &nbsp; </span>1997</p>

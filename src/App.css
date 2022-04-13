@@ -9,7 +9,9 @@
 
 @import url('https: //fonts.googleapis.com/css2?family=Ceviche+One&display=swap"rel="stylesheet');
 
-
+input[type='text']:focus {
+  box-shadow: none;
+}
 
 * {
   margin: 0;

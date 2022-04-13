@@ -12,6 +12,19 @@
     margin-top: 0 !important;
 }
 }
+@media only screen and (max-width: 600px) {
+    .openbookimage {
+        max-height: 200px!important;
+        min-height: 150px !important;
+    
+    }
+    .openbooktitle {
+        font-size: 1.5em!important;
+        font-weight: 600!important;
+        margin-bottom: 15px;
+    
+    }
+}
 .openbookimage{
     max-height: 266px;
     min-height: 207px;

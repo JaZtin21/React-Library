@@ -17,6 +17,8 @@ import Adminlogin from "./components/Adminlogin";
 import Likedbooks from "./components/Likedbooks";
 import Borrow from "./components/Borrow";
 import Signup from "./components/Signup";
+import Requestcopy from "./components/Requestcopy";
+import Addbook from "./components/Addbook";
 
 function App() {
   return (
@@ -140,11 +142,37 @@ function App() {
           }
         />
          <Route
+          path="/requestedcopy"
+          element={
+            <>
+              <Topnav/>
+              <Requestcopy/>
+              <Footer/>
+             
+             
+             
+            </>
+          }
+        />
+         <Route
           path="/signup"
           element={
             <>
               <Topnav/>
               <Signup/>
+              <Footer/>
+             
+             
+             
+            </>
+          }
+        />
+        <Route
+          path="/addbook"
+          element={
+            <>
+              <Topnav/>
+              <Addbook/>
               <Footer/>
              
              

@@ -44,6 +44,9 @@ const Menu = () => {
       <li className='sidemenu py-4'>
         <a href='/addbook'> <h2>Manage Books </h2></a>
       </li>
+      <li className='sidemenu py-4'>
+        <a href='/requests'> <h2>Manage Requests </h2></a>
+      </li>
        <li className='sidemenu py-4'>
         <a href='/changepassword'> <h2>Change Password</h2></a>
       </li>

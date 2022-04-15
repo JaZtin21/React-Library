@@ -366,8 +366,8 @@ const Browse= () => {
         </Slider>
         </div>
          <div className='flex recenthead mt-3 flex-row justify-between items-center'>
-         <h3 className='mb-1   h2h'>Recently Added</h3>
-         <button className='seemorebutton flex items-center justify-between flex-row'><a className='mr-1'> View more</a><FaChevronRight/></button>
+         <h3 className='mb-1   h2h' >Recently Added</h3>
+         <button className='seemorebutton flex items-center justify-between flex-row'><a className='mr-1' href='/recentlyadded'> View more</a><FaChevronRight/></button>
          </div>
          <div className='phone:px-1 desktop:px-0 w-full grid grid-row-2 desktop:grid-cols-6 laptop:grid-cols-6 tabletlg:grid-cols-4 tablet:grid-cols-3 phone:grid-cols-2 phone:gap-1 tablet:gap-1 tabletlg:gap-2 '>
            <div>         
@@ -594,7 +594,7 @@ const Browse= () => {
 
                   <div className='flex recenthead  flex-row justify-between items-center'>
          <h3 className='mb-1 mt-2  h2h'>Most Liked</h3>
-         <button className='seemorebutton flex items-center justify-between flex-row'><a className='mr-1'> View more</a><FaChevronRight/></button>
+         <button className='seemorebutton flex items-center justify-between flex-row'><a className='mr-1' href='/mostliked'> View more</a><FaChevronRight/></button>
          </div>
          <div className=' phone:px-1 desktop:px-0 grid grid-row-2 desktop:grid-cols-6 laptop:grid-cols-6 tabletlg:grid-cols-4 tablet:grid-cols-3 phone:grid-cols-2 phone:gap-1 tablet:gap-1 tabletlg:gap-2'>
            <div>         

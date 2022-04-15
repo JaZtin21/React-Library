@@ -57,3 +57,41 @@
     text-align: center;
     justify-content: center;
 }
+.tabactive{
+    background-color: rgb(164, 48, 51);
+    color: white;
+
+}
+.tabinactive{
+    background-color: #202125;
+    cursor: pointer;
+    color: white;
+
+}
+.tabinactive:hover{
+    background-color: rgb(164, 48, 51);
+    color: white;
+
+}
+@media only screen and (max-width: 600px) {
+.tabactive {
+    background-color: rgb(164, 48, 51);
+    color: white;
+font-size: 0.9em !important;
+
+}
+
+.tabinactive {
+    background-color: #202125;
+    cursor: pointer;
+    color: white;
+font-size: 0.9em!important;
+}
+
+.tabinactive:hover {
+    background-color: rgb(164, 48, 51);
+    color: white;
+font-size: 0.9em !important;
+}
+
+}

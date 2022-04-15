@@ -5,6 +5,8 @@
 }
 .bookmarkshead{
     border-bottom: 2px solid #202125 ;
+    background-color: white;
+    z-index: 2;
 }
 .bookmarkshead a:hover{
     background-color: #a43033;

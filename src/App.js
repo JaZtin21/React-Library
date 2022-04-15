@@ -19,6 +19,9 @@ import Borrow from "./components/Borrow";
 import Signup from "./components/Signup";
 import Requestcopy from "./components/Requestcopy";
 import Addbook from "./components/Addbook";
+import Recentlyadded from "./components/Recentlyadded";
+import Mostliked from "./components/Mostliked";
+import Requests from "./components/Requests";
 
 function App() {
   return (
@@ -99,6 +102,30 @@ function App() {
             </>
           }
         />
+          <Route
+          path="/recentlyadded"
+          element={
+            <>
+              <Topnav/>
+              <Recentlyadded/>
+             
+             
+             
+            </>
+          }
+        />
+            <Route
+          path="/mostliked"
+          element={
+            <>
+              <Topnav/>
+              <Mostliked/>
+             
+             
+             
+            </>
+          }
+        />
     
         <Route
           path="/adminlogin"
@@ -134,6 +161,19 @@ function App() {
             <>
               <Topnav/>
               <Borrow/>
+              <Footer/>
+             
+             
+             
+            </>
+          }
+        />
+        <Route
+          path="/requests"
+          element={
+            <>
+              <Topnav/>
+              <Requests/>
               <Footer/>
              
              

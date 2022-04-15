@@ -433,7 +433,7 @@ const Home= () => {
          
          <div className='flex recenthead mt-3 flex-row justify-between items-center'>
          <h3 className='mb-1   h2h'>Recently Added</h3>
-         <button className='seemorebutton flex items-center justify-between flex-row'><a className='mr-1'> View more</a><FaChevronRight/></button>
+         <button className='seemorebutton flex items-center justify-between flex-row'><a href='/recentlyadded' className='mr-1'> View more</a><FaChevronRight/></button>
          </div>
         <Slider {...settings}>
              <div className='h-full tablet:px-1 phone:px-0.5'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from "react";
+import { useState, useCallback, useRef } from "react";
 import { FaSearch } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 
@@ -17,8 +17,164 @@ import Menu  from "./Menu.js";
 import Topnav from "./Topnav";
 import 'flowbite';
 import { ReactDimmer } from "react-dimmer";
+import Select from 'react-select';
+import Creatable, { useCreatable } from 'react-select/creatable';
+
 
 const Advancedsearch= () => {
+
+  const [genreValue, setgenreValue] = useState();
+  const [genreOptions, setgenreOptions] = useState([
+  { value: 'music', label: 'music' },
+  { value: 'science', label: 'science' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+  { value: '1', label: '1' },
+    { value: 'music', label: 'music' },
+  { value: 'science', label: 'science' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+    { value: 'music', label: 'music' },
+  { value: 'science', label: 'science' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+    { value: 'music', label: 'music' },
+  { value: 'science', label: 'science' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+    { value: 'music', label: 'music' },
+  { value: 'science', label: 'science' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+  { value: 'adventure', label: 'adventure' },
+  ]);
+
+  const genrehandleChange = useCallback((inputValue) => setgenreValue(inputValue), []);console.log(genreValue);
+
+  const customStyles = {
+ control: (base, state) => ({
+    ...base,
+    /*border: state.isFocused ? 0 : 0,
+    // This line disable the blue border
+    boxShadow: state.isFocused ? 0 : 0,
+    '&:hover': {
+       border: state.isFocused ? 0 : 0
+    }*/
+    backgroundColor:'rgba(255, 255, 255, 0.901)',
+    margin:'0',
+   
+     minHeight: '30px',
+      height: '30px',
+      maxWidth:'250px',
+     
+   
+}),
+valueContainer: (provided, state) => ({
+      ...provided,
+      height: '30px',
+      padding: '0 5px',
+      
+     
+
+    }),
+    
+    input: (provided, state) => ({
+      ...provided,
+      margin: '0px',
+      
+    }),
+    indicatorSeparator: state => ({
+      display: 'none',
+    }),
+    indicatorsContainer: (provided, state) => ({
+      ...provided,
+      height: '30px',
+      maxWidth:'270px',
+    }),
+
+    menuList: base => ({
+    ...base,
+    minHeight: "10px" ,
+    
+    
+    padding:'0'
+    
+     }),
+     option: styles => ({ ...styles,                 
+         
+            lineHeight: '20px',
+          
+      }) 
+
+}
+ 
+ const customStyles2 = {
+ control: (base, state) => ({
+    ...base,
+    /*border: state.isFocused ? 0 : 0,
+    // This line disable the blue border
+    boxShadow: state.isFocused ? 0 : 0,
+    '&:hover': {
+       border: state.isFocused ? 0 : 0
+    }*/
+    backgroundColor:'rgba(255, 255, 255, 0.901)',
+    margin:'0',
+   
+     minHeight: '41px',
+     
+      maxWidth:'100%',
+     
+   
+}),
+valueContainer: (provided, state) => ({
+      ...provided,
+      
+      padding: '0 5px',
+      
+     
+
+    }),
+    
+    input: (provided, state) => ({
+      ...provided,
+      margin: '0px',
+      
+    }),
+    indicatorSeparator: state => ({
+      display: 'none',
+    }),
+    indicatorsContainer: (provided, state) => ({
+      ...provided,
+     
+      maxWidth:'100%',
+    }),
+
+    menuList: base => ({
+    ...base,
+    minHeight: "10px" ,
+    
+    
+    padding:'0'
+    
+     }),
+     menu: (base) => ({
+      ...base,
+      width: "100%!important",
+      minWidth: "100%"
+ }),
+     option: styles => ({ ...styles,                 
+         
+            lineHeight: '20px',
+          
+      }) 
+
+}
+
  return (
      <>
      <div className='advancedsearchcont  '>
@@ -85,16 +241,25 @@ const Advancedsearch= () => {
                     </div>
 
                     <p className='mt-7 '>Genre/Subject:</p>
-                    <div className=" mt-2 flex  flex-row w-full flex-wrap">
+                    <div className=" mt-2  w-full ">
 					
-                    <div className='genrebox flex-wrap mr-2 my-1 px-2 py-1'><p className=''>Adventure</p></div>
-                    <div className='genrebox flex-wrap  mr-2 my-1 px-2 py-1'><p className=''>Astronomy</p></div>
-                     <div className='genrebox flex-wrap  mr-2 my-1 px-2 py-1'><p className=''>Biology</p></div>
-                    <div className='genrebox flex-wrap  mr-2 my-1 px-2 py-1'><p className=''>Comedy</p></div>
-                    <div className='genrebox flex-wrap  mr-2 my-1 px-2 py-1'><p className=''>Fantasy</p></div>
-                    <div className='genrebox flex-wrap  mr-2 my-1 px-2 py-1'><p className=''>Horror</p></div>
-                    <div className='genrebox flex-wrap  mr-2 my-1 px-2 py-1'><p className=''>Physics</p></div>
-                    <div className='genrebox flex-wrap  mr-2 my-1 px-2 py-1'><p className=''>Science Fiction</p></div>
+                    	 <Creatable
+         menuIsOpen={true}
+         hideSelectedOptions={false}
+         isClearable
+        value={genreValue}
+        options={genreOptions}
+        onChange={genrehandleChange}
+       
+        isMulti
+  
+
+         
+
+        classNamePrefix="genreadvbox"
+        styles={customStyles2}
+
+      />
 
                 	</div>
                     <div className='flex flex-row justify-between items-center mt-5 '>

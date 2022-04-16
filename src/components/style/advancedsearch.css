@@ -99,3 +99,62 @@ background-color: #202125;
      
         margin: 0 auto;
 }
+.genreadvbox__menu{
+    position: relative!important;
+    top:0!important;
+}
+.genreadvbox__control{
+    width: 100%!important;
+    display: none!important;
+}
+.genreadvbox__menu{
+    background-color: transparent!important;
+    color: white!important;
+    box-shadow: none!important;
+
+}
+.genreadvbox__menu-list{
+    background-color: transparent !important;
+    display: flex!important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 150px!important;
+    overflow: auto !important;
+    
+   
+
+}
+.genreadvbox__option{
+    width: unset!important;
+    min-width: 50px!important;
+    border: 1px solid #4a4c55!important;
+    align-items: center!important;
+    text-align: center!important;
+    border-radius: 6px;
+    font-size: 0.7em!important;
+    background-color: transparent!important;
+     margin-right: 0.5rem;
+     margin-bottom: 0.5rem;
+     padding:3px 5px 3px 5px!important;
+     
+
+}
+
+
+.genreadvbox__option:hover {
+    cursor: pointer;
+    border: 1px solid #a43033!important;
+    background-color: #a430345a !important;
+    
+    color: white !important;
+    
+   
+}
+.genreadvbox__option--is-selected{
+    cursor: pointer;
+    border: 1px solid #a43033!important;
+    background-color: #a430345a !important;
+   
+    color: white !important;
+
+}

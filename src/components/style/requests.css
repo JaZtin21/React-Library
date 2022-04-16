@@ -1,0 +1,20 @@
+.declinebtn{
+    margin-right: -43px;
+    z-index: 2;
+}
+.acceptbtn{
+    z-index: 1;
+}
+.acceptbtn{
+    fill:#3da450 ;
+}
+.declinebtn{
+    fill:#A43033;
+}
+.acceptbtn:hover {
+    fill: #307f3e;
+}
+.declinebtn:hover {
+    fill: #86272a;
+}
+

@@ -9,6 +9,7 @@ import "./style/browse.css";
 import "./style/sidemenu.css";
 import "./style/bookmarks.css";
 import "./style/borrow.css";
+import "./style/requests.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -23,6 +24,15 @@ import { TabSelector } from './TabSelector';
 
 const Requests= () => {
 
+
+  const activateLasersd = () => {
+     console.log('You clicked d.');
+
+  }
+  const activateLasersc = () => {
+     console.log('You clicked c.');
+
+  }
 const [selectedTab, setSelectedTab] = useTabs([
     'all',
     'pending',
@@ -141,10 +151,19 @@ const [selectedTab, setSelectedTab] = useTabs([
             </div>
             <div className=' relative removeshadow text-white flex flex-col px-2'  style={{zIndex:"2"}}>
              <div className='statusbar w-full flex  flex-row-reverse'>
-              <div className='relative'>
-               <h5 className=' stattext flex px-3 flex-1  absolute'>Confirmed</h5>
-               <svg width="150" height="24">
-               <path d="m 1 0 c 6 2 24 -1 30 11 c 3 5 5 13 13 13 h 105 V 0" fill="#3da450"  stroke="none" strokeWidth="1" />
+                        <div className='relative acceptbtn' onClick={activateLasersc} >
+               <h5 className=' stattext flex mx-3 flex-1  absolute' >Accept</h5>
+               <svg className='' width="150" height="25">
+               <path d="m 1 0 c 6 2 24 -1 30 11 c 3 5 5 13 13 13 h 105 V 0"  stroke="#202125" strokeWidth="1" />
+  
+              </svg>
+
+             </div>
+    
+               <div className='relative declinebtn' >
+               <h5 className=' stattext flex mx-2 flex-1  absolute'  onClick={activateLasersd}>Decline</h5>
+               <svg className='' width="150" height="25">
+               <path d="m 1 0 c 6 2 24 -1 30 11 c 3 5 5 13 13 13 h 106 C 143 21 143 18 140 12 C 133 0 127 2 109 0"  stroke="#202125" strokeWidth="1" />
   
               </svg>
 
@@ -152,7 +171,7 @@ const [selectedTab, setSelectedTab] = useTabs([
 
               </div>
              <h4 className='removeunderline' >Now I Will make the title of this journal to two lines and i hope it works well and if it exceeds three lines then the text will be clipped by the css</h4>
-             <h5 className='pt-0'>-Author</h5>
+             <h6><span className='makethisbold mr-2'>Borrower:</span> Mark Jevs</h6>
              <h6><span className='makethisbold mr-2'>Received Date:</span> January 11, 2022 </h6>
              <h6><span className='makethisbold mr-2'>Return Date:</span>  February 11, 2022 </h6>
            </div>
@@ -167,7 +186,15 @@ const [selectedTab, setSelectedTab] = useTabs([
             <div className=' relative removeshadow text-white flex flex-col px-2'  style={{zIndex:"2"}}>
              <div className='statusbar w-full flex  flex-row-reverse'>
               <div className='relative'>
-               <h5 className=' stattext flex px-3 flex-1  absolute'>Pending</h5>
+               <h5 className=' stattext flex mxx-3 flex-1  absolute'>Pending</h5>
+               <svg width="150" height="24">
+               <path d="m 1 0 c 6 2 24 -1 30 11 c 3 5 5 13 13 13 h 105 V 0" fill="#A43033"  stroke="none" strokeWidth="1" />
+  
+              </svg>
+
+             </div>
+              <div className='relative'>
+               <h5 className=' stattext flex mxx-3 flex-1  absolute'>Pending</h5>
                <svg width="150" height="24">
                <path d="m 1 0 c 6 2 24 -1 30 11 c 3 5 5 13 13 13 h 105 V 0" fill="#A43033"  stroke="none" strokeWidth="1" />
   
@@ -192,7 +219,16 @@ const [selectedTab, setSelectedTab] = useTabs([
             <div className=' relative removeshadow text-white flex flex-col px-2'  style={{zIndex:"2"}}>
              <div className='statusbar w-full flex  flex-row-reverse'>
               <div className='relative'>
-               <h5 className=' stattext flex px-3 flex-1  absolute'>Confirmed</h5>
+                
+               <h5 className=' stattext flex mx-3 flex-1  absolute'>Confirmed</h5>
+               <svg width="150" height="24">
+               <path d="m 1 0 c 6 2 21 2 26 14 c 4 7 4 10 13 10 h 142 v -24" fill="#A43033"  stroke="none" strokeWidth="1" />
+  
+              </svg>
+
+             </div>
+                <div className='relative'>
+               <h5 className=' stattext flex mx-3 flex-1  absolute'>Confirmed</h5>
                <svg width="150" height="24">
                <path d="m 1 0 c 6 2 21 2 26 14 c 4 7 4 10 13 10 h 142 v -24" fill="#A43033"  stroke="none" strokeWidth="1" />
   
@@ -235,6 +271,7 @@ const [selectedTab, setSelectedTab] = useTabs([
            </div>
              </div>
          </TabPanel>
+         
         <TabPanel hidden={selectedTab !== 'pending'}>Pending</TabPanel>
         <TabPanel hidden={selectedTab !== 'confirmed'}>Confirmed</TabPanel>
         <TabPanel hidden={selectedTab !== 'received'}>Received</TabPanel>

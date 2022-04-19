@@ -461,6 +461,10 @@ inputRef2.current.style.height = scrollHeight2 + "px";
          <input className="infoaddbook" type='text'></input>
          </div>
          <div>
+         <p><span className='openbookclassname'>DOI: &nbsp; </span>	</p>
+         <input className="infoaddbook" type='text'></input>
+         </div>
+         <div>
          <p><span className='openbookclassname'>Call number: &nbsp; </span>	</p>
          <input className="infoaddbook" type='text'></input>
         </div>

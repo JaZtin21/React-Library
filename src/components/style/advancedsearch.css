@@ -158,3 +158,32 @@ background-color: #202125;
     color: white !important;
 
 }
+.advimgcont:after{
+
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+
+background:#2a2c31;
+background: -moz-linear-gradient(0deg,
+    rgba(32, 33, 37, 1) 0%,
+    rgba(42,
+    44,
+    49,
+    0) 76%);
+background: linear-gradient(0deg,
+    rgba(32, 33, 37, 1) 0%,
+    rgba(42,
+    44,
+    49,
+    0) 76%);
+
+
+
+
+}
+

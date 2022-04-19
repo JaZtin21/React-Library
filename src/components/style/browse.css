@@ -236,9 +236,12 @@ letter-spacing: normal;
     
 }
 @media only screen and (max-width: 1200px) {
+
+
   .recenthead {
         padding: 0 0.25rem;
-        width: 100%!important;
+      
+        max-width: 100%!important;
     }
     .topnavcont2 {
     

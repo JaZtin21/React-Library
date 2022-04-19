@@ -289,9 +289,9 @@ valueContainer: (provided, state) => ({
            <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
-            <div className='imagecont ' style={{zIndex:"2"}}>
-              <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
+                 
+            <div className='imagecont advimgcont' style={{zIndex:"2"}}>
+              <img className=" imagecontcont" src={require('.//style/images/harry3.jpg')} alt="Mountain"/>
             </div>
             
             <div className="px-1 carddet " style={{zIndex:"2"}}>
@@ -307,8 +307,8 @@ valueContainer: (provided, state) => ({
             <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
-            <div className='imagecont ' style={{zIndex:"2"}}>
+              
+            <div className='imagecont advimgcont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
             
@@ -326,8 +326,8 @@ valueContainer: (provided, state) => ({
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
-            <div className='imagecont ' style={{zIndex:"2"}}>
+              
+            <div className='imagecont advimgcont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
             </div>
             

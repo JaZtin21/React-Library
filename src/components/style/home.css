@@ -79,7 +79,7 @@
 }
 .logincont{
 
-  height: calc(100vh - 130px)!important;
+  min-height: calc(100vh - 130px)!important;
   
 }
 .centerCont {
@@ -244,6 +244,17 @@
  
 
 }
+.homerecent{
+  min-height: unset!important;
+}
+.featline{
+  padding: 0 20px;
+  background-color: #202125;
+}
+.linefeatured{
+  background-color: white;
+  height: 1px;
+}
 .slick-dots {
   top: 300px;
   
@@ -360,4 +371,79 @@ opacity: 0.35;
 
 .dimmer{
   overflow: hidden!important;
+}
+.bgdark{
+  
+}
+.librarydescription{
+ display: flex;
+ align-items: center;
+
+ color:black;
+ justify-content: center;
+}
+.librarydesccontainer{
+  max-width: 1160px;
+  width: 100%;
+  align-self: center;
+}
+.iconbox{
+  color:white;
+  background-color: #202125;
+  height: 80px;
+  min-width: 80px!important;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.iconbox p{
+  font-size: 30px;
+}
+.icondesctitle{
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: normal;
+
+}
+.icondescdesc{
+  font-size: 1em;
+  letter-spacing: normal;
+ 
+}
+.homefeaturedbox{
+  background-color: #202125;
+  
+  display: flex;
+ align-items: center;
+  justify-content: center;
+}
+.homefeaturedcont{
+  max-width: 1160px;
+  width: 100%;
+ 
+
+}
+.homefeaturedbox .slick-arrow{
+  display: none!important;
+}
+.homefeaturedbox .slick-dots .slick-active button::before {
+  color: white !important;
+
+}
+.homefeaturedbox .slick-dots {
+  top: unset !important;
+  bottom: unset !important;
+
+
+
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-end;
+  justify-content: center;
+
+  align-self: baseline !important;
+}
+.homefeaturedbox .homefeaturedcont .slick-slider .slick-list .featuredcontBox{
+ 
+  justify-content: center;
 }

@@ -79,301 +79,134 @@ const Browse= () => {
         <>
         
         
+        <div className='relative flex flex-col randcontainer'>
+
         
-        <div className='recentlyCont  flex '>
-      
-         <div className='recentCont pt-3 addnav '>
-                <div className='text-black recentContCont '>
-                 
-        <div>
-           <h3  className=" pt-4 pl-4" style={{color:"#d33c3c",position:"absolute",zIndex:"4"}} >Random Books</h3>
+        <div className='phone:mx-1 laptop:mx-0 slidcont laptop:pt-10 phone:pt-5 px-1'>
+           
         <Slider {...settingsfeatured}>
+         
+                     
+              <div className='insfeaturedBox flex relative  '>
+  
+                <div className='featuredimgBox'>
+                   <img className="featuredImg" src={require('.//style/images/harry2.png')} alt="Mountain"/>
+
+                </div>
+                <div className='featuredcontBox relative h-full flex flex-col p-2'>
+                      
+           
+                  <h4 className='featuredtitle'>Harry Potter and the Chamber of Secrets</h4>
+                  <h4 className='featuredauthor'>-J.K. Rowling</h4>
+                  <div className='tablet:flex phone:hidden flex-row featuredgenre items-center '>
+                    <p className='featuredauthor' >Genre: </p>
+                    <p className='genrefeatured'>mystery</p>
+                    <p className='genrefeatured'>magicy</p>
+                    <p className='genrefeatured'>fantasy</p>
+
+
+                  </div>
+                  <h4 className='featureddescript'>An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.</h4>
+                </div>
+
+
+              </div>
+                            <div className='insfeaturedBox flex relative  '>
+ 
+                <div className='featuredimgBox'>
+                   <img className="featuredImg" src={require('.//style/images/harry3.jpg')} alt="Mountain"/>
+
+                </div>
+                <div className='featuredcontBox relative h-full flex flex-col p-2'>
+                      
+           
+                  <h4 className='featuredtitle'>Harry Potter and the Chamber of Secrets</h4>
+                  <h4 className='featuredauthor'>-J.K. Rowling</h4>
+                           <div className='tablet:flex phone:hidden flex-row featuredgenre items-center '>
+                    <p className='featuredauthor' >Genre: </p>
+                    <p className='genrefeatured'>mystery</p>
+                    <p className='genrefeatured'>magicy</p>
+                    <p className='genrefeatured'>fantasy</p>
+
+
+                  </div>
+                  <h4 className='featureddescript'>An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.</h4>
+                </div>
+
+
+              </div>
+
+              <div className='insfeaturedBox flex relative  '>
+
+                <div className='featuredimgBox'>
+                   <img className="featuredImg" src={require('.//style/images/harry2.png')} alt="Mountain"/>
+
+                </div>
+                <div className='featuredcontBox relative h-full flex flex-col p-2'>
+                      
+           
+                  <h4 className='featuredtitle'>Harry Potter and the Chamber of Secrets</h4>
+                  <h4 className='featuredauthor'>-J.K. Rowling</h4>
+                           <div className='tablet:flex phone:hidden flex-row featuredgenre items-center '>
+                    <p className='featuredauthor' >Genre: </p>
+                    <p className='genrefeatured'>mystery</p>
+                    <p className='genrefeatured'>magicy</p>
+                    <p className='genrefeatured'>fantasy</p>
+
+
+                  </div>
+                  <h4 className='featureddescript'>An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.</h4>
+                </div>
+
+
+              </div>
+                            <div className='insfeaturedBox flex relative  '>
+  
+                <div className='featuredimgBox'>
+                   <img className="featuredImg" src={require('.//style/images/harry3.jpg')} alt="Mountain"/>
+
+                </div>
+                <div className='featuredcontBox relative h-full flex flex-col p-2'>
+                      
+           
+                  <h4 className='featuredtitle'>Harry Potter and the Chamber of Secrets</h4>
+                  <h4 className='featuredauthor'>-J.K. Rowling</h4>
+                           <div className='tablet:flex phone:hidden flex-row featuredgenre items-center '>
+                    <p className='featuredauthor' >Genre: </p>
+                    <p className='genrefeatured'>mystery</p>
+                    <p className='genrefeatured'>magicy</p>
+                    <p className='genrefeatured'>fantasy</p>
+
+
+                  </div>
+                  <h4 className='featureddescript'>An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.</h4>
+                </div>
+
+
+              </div>
+
+
+                       
             
-            <div className=' featuredbox  relative'  >
-              <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/bg2.png') + ')',zIndex:"1",filter:'blur(90%)'}}>   </div>
-              <div className="inline-flex w-full h-full "  style={{zIndex:"2"}}>
-
-
-
-                <a className='bookimagecontainerhome text-black justify-items-center block h-full' >
-
-                <div className="flex pt-4 pl-4" style={{height:"20%"}} >
-               
-                </div>
-                <div className="bookdescriptionhome  block pt-4 pb-3 mx-auto mb-0 "  style={{overflow:"auto"}} >
-                  <h2>Harry potter and the sorcerer's stone</h2>
-                  <h5 >-J.K Rowling</h5>
- <div className='genrecircle inline-flex'>
-                  <p className='px-1'>Mystery</p>
-                  <p className='px-1'>Magic</p>
-                  <p className='px-1'>Fantasy</p>
-
-
-                </div>
-
-
-
-                </div>
-                </a>
-
-
-                <a className='bookdescriptioncontainerhome  flex' >
-
-                <div className="bookimagehome  px-2 pt-2">
-                  <div className="bookimagebox flex align-middle justify-items-center h-80  ">
-                    
-                    <img className="bookimg text-center mx-auto"  src={require('.//style/images/bg.png')} alt="No Image Preview" />
-                  
-
-                  </div>
-           
-
-
-                </div>
-
-                </a>
-
-            </div>
-          </div>
-                 <div className=' featuredbox  relative'  >
-              <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1",filter:'blur(90%)'}}>   </div>
-              <div className="inline-flex w-full h-full "  style={{zIndex:"2"}}>
-
-
-
-                <a className='bookimagecontainerhome text-black justify-items-center block h-full' >
-
-                <div className="flex pt-4 pl-4" style={{height:"20%"}} >
-               
-                </div>
-                <div className="bookdescriptionhome  block pt-4 pb-3 mx-auto mb-0 "  style={{overflow:"auto"}} >
-                  <h2>Harry potter and the sorcerer's stone</h2>
-                  <h5 >-J.K Rowling</h5>
-
-                <div className='genrecircle inline-flex'>
-                  <p className='px-1'>Mystery</p>
-                  <p className='px-1'>Magic</p>
-                  <p className='px-1'>Fantasy</p>
-
-
-                </div>
-
-
-
-
-                </div>
-                </a>
-
-
-                <a className='bookdescriptioncontainerhome  flex' >
-
-                <div className="bookimagehome  px-2 pt-2">
-                  <div className="bookimagebox flex align-middle justify-items-center h-80  ">
-                    
-                    <img className="bookimg text-center mx-auto"  src={require('.//style/images/harry.jpg')} alt="No Image Preview" />
-                  
-
-                  </div>
-           
-
-
-                </div>
-
-                </a>
-
-            </div>
-          </div>
-                 <div className=' featuredbox  relative'  >
-              <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1",filter:'blur(90%)'}}>   </div>
-              <div className="inline-flex w-full h-full "  style={{zIndex:"2"}}>
-
-
-
-                <a className='bookimagecontainerhome text-black justify-items-center block h-full' >
-
-                <div className="flex pt-4 pl-4" style={{height:"20%"}} >
-               
-                </div>
-                <div className="bookdescriptionhome  block pt-4 pb-3 mx-auto mb-0 "  style={{overflow:"auto"}} >
-                  <h2>Harry potter and the sorcerer's stone</h2>
-                  <h5 >-J.K Rowling</h5>
-
- <div className='genrecircle inline-flex'>
-                  <p className='px-1'>Mystery</p>
-                  <p className='px-1'>Magic</p>
-                  <p className='px-1'>Fantasy</p>
-
-
-                </div>
-
-
-                </div>
-                </a>
-
-
-                <a className='bookdescriptioncontainerhome  flex' >
-
-                <div className="bookimagehome  px-2 pt-2">
-                  <div className="bookimagebox flex align-middle justify-items-center h-80  ">
-                    
-                    <img className="bookimg text-center mx-auto"  src={require('.//style/images/harry.jpg')} alt="No Image Preview" />
-                  
-
-                  </div>
-           
-
-
-                </div>
-
-                </a>
-
-            </div>
-          </div>
-                 <div className=' featuredbox  relative'  >
-              <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1",filter:'blur(90%)'}}>   </div>
-              <div className="inline-flex w-full h-full "  style={{zIndex:"2"}}>
-
-
-
-                <a className='bookimagecontainerhome text-black justify-items-center block h-full' >
-
-                <div className="flex pt-4 pl-4" style={{height:"20%"}} >
-               
-                </div>
-                <div className="bookdescriptionhome  block pt-4 pb-3 mx-auto mb-0 "  style={{overflow:"auto"}} >
-                  <h2>Harry potter and the sorcerer's stone</h2>
-                  <h5 >-J.K Rowling</h5>
- <div className='genrecircle inline-flex'>
-                  <p className='px-1'>Mystery</p>
-                  <p className='px-1'>Magic</p>
-                  <p className='px-1'>Fantasy</p>
-
-
-                </div>
-
-
-
-                </div>
-                </a>
-
-
-                <a className='bookdescriptioncontainerhome  flex' >
-
-                <div className="bookimagehome  px-2 pt-2">
-                  <div className="bookimagebox flex align-middle justify-items-center h-80  ">
-                    
-                    <img className="bookimg text-center mx-auto"  src={require('.//style/images/harry.jpg')} alt="No Image Preview" />
-                  
-
-                  </div>
-           
-
-
-                </div>
-
-                </a>
-
-            </div>
-          </div>
-                 <div className=' featuredbox  relative'  >
-              <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1",filter:'blur(90%)'}}>   </div>
-              <div className="inline-flex w-full h-full "  style={{zIndex:"2"}}>
-
-
-
-                <a className='bookimagecontainerhome text-black justify-items-center block h-full' >
-
-                <div className="flex pt-4 pl-4" style={{height:"20%"}} >
-               
-                </div>
-                <div className="bookdescriptionhome  block pt-4 pb-3 mx-auto mb-0 "  style={{overflow:"auto"}} >
-                  <h2>Harry potter and the sorcerer's stone</h2>
-                  <h5 >-J.K Rowling</h5>
-
- <div className='genrecircle inline-flex'>
-                  <p className='px-1'>Mystery</p>
-                  <p className='px-1'>Magic</p>
-                  <p className='px-1'>Fantasy</p>
-
-
-                </div>
-
-
-                </div>
-                </a>
-
-
-                <a className='bookdescriptioncontainerhome  flex' >
-
-                <div className="bookimagehome  px-2 pt-2">
-                  <div className="bookimagebox flex align-middle justify-items-center h-80  ">
-                    
-                    <img className="bookimg text-center mx-auto"  src={require('.//style/images/harry.jpg')} alt="No Image Preview" />
-                  
-
-                  </div>
-           
-
-
-                </div>
-
-                </a>
-
-            </div>
-          </div>
-                 <div className=' featuredbox  relative'  >
-              <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1",filter:'blur(90%)'}}>   </div>
-              <div className="inline-flex w-full h-full "  style={{zIndex:"2"}}>
-
-
-
-                <a className='bookimagecontainerhome text-black justify-items-center block h-full' >
-
-                <div className="flex pt-4 pl-4" style={{height:"20%"}} >
-               
-                </div>
-                <div className="bookdescriptionhome  block pt-4 pb-3 mx-auto mb-0 "  style={{overflow:"auto"}} >
-                  <h2>Harry potter and the sorcerer's stone</h2>
-                  <h5 >J.K Rowling</h5>
-
-
-
-
-                </div>
-                </a>
-
-
-                <a className='bookdescriptioncontainerhome  flex' >
-
-                <div className="bookimagehome  px-2 pt-2">
-                  <div className="bookimagebox flex  h-80  ">
-                    
-                    <img className="bookimg text-center mx-auto"  src={require('.//style/images/harry.jpg')} alt="No Image Preview" />
-                  
-
-                  </div>
-           
-
-
-                </div>
-
-                </a>
-
-            </div>
-          </div>
+ 
               
           
         </Slider>
         </div>
+        </div>
+                <div className='recentlyCont  flex '>
+      
+         <div className='recentCont mt-1 addnav '>
+                <div className='text-black recentContCont '>
          <div className='flex recenthead mt-3 flex-row justify-between items-center'>
          <h3 className='mb-1   h2h' >Recently Added</h3>
          <button className='seemorebutton flex items-center justify-between flex-row'><a className='mr-1' href='/recentlyadded'> View more</a><FaChevronRight/></button>
          </div>
-         <div className='phone:px-1 desktop:px-0 w-full grid grid-row-2 desktop:grid-cols-6 laptop:grid-cols-6 tabletlg:grid-cols-4 tablet:grid-cols-3 phone:grid-cols-2 phone:gap-1 tablet:gap-1 tabletlg:gap-2 '>
+         <div className='phone:px-1 desktop:px-0 w-full grid grid-row-2 desktop:grid-cols-6 laptop:grid-cols-6 tabletlg:grid-cols-4 tablet:grid-cols-4 phone:grid-cols-3 phone:gap-1 tablet:gap-1 tabletlg:gap-2 '>
            <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
+                
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
             </div>
@@ -391,7 +224,7 @@ const Browse= () => {
             <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
+        
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
@@ -410,7 +243,7 @@ const Browse= () => {
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry2.png') + ')',zIndex:"1"}}>   </div> 
+            
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry2.png')} alt="Mountain"/>
             </div>
@@ -428,7 +261,7 @@ const Browse= () => {
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
+      
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
@@ -446,7 +279,7 @@ const Browse= () => {
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
+            
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
@@ -464,7 +297,7 @@ const Browse= () => {
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
+       
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
@@ -482,7 +315,7 @@ const Browse= () => {
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
+          
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
@@ -500,7 +333,7 @@ const Browse= () => {
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
+       
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
@@ -518,7 +351,7 @@ const Browse= () => {
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
+        
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
@@ -536,7 +369,7 @@ const Browse= () => {
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
+        
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
@@ -554,7 +387,7 @@ const Browse= () => {
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
+         
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
@@ -572,7 +405,7 @@ const Browse= () => {
                     <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
-                  <div className='blurthis absolute w-full h-full' style={{backgroundImage: 'url(' + require('.//style/images/harry.jpg') + ')',zIndex:"1"}}>   </div> 
+     
             <div className='imagecont ' style={{zIndex:"2"}}>
               <img className=" imagecontcont" src={require('.//style/images/harry.jpg')} alt="Mountain"/>
             </div>
@@ -596,7 +429,7 @@ const Browse= () => {
          <h3 className='mb-1 mt-2  h2h'>Most Liked</h3>
          <button className='seemorebutton flex items-center justify-between flex-row'><a className='mr-1' href='/mostliked'> View more</a><FaChevronRight/></button>
          </div>
-         <div className=' phone:px-1 desktop:px-0 grid grid-row-2 desktop:grid-cols-6 laptop:grid-cols-6 tabletlg:grid-cols-4 tablet:grid-cols-3 phone:grid-cols-2 phone:gap-1 tablet:gap-1 tabletlg:gap-2'>
+         <div className=' phone:px-1 desktop:px-0 grid grid-row-2 desktop:grid-cols-6 laptop:grid-cols-6 tabletlg:grid-cols-4 tablet:grid-cols-4 phone:grid-cols-3 phone:gap-1 tablet:gap-1 tabletlg:gap-2'>
            <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">

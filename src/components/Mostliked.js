@@ -28,7 +28,7 @@ const Mostliked= () => {
            
             
              <h1 className='advancetext mt-5' style={{zIndex:"2"}}> Most Liked </h1>
-           <div  style={{zIndex:"2"}} className='searchresultcont w-full grid grid-row-2 desktop:grid-cols-6 laptop:grid-cols-6 tabletlg:grid-cols-4 tablet:grid-cols-3 phone:grid-cols-2 phone:gap-1 tablet:gap-1 tabletlg:gap-2 '>
+           <div  style={{zIndex:"2"}} className='searchresultcont w-full grid grid-row-2 desktop:grid-cols-6 laptop:grid-cols-6 tabletlg:grid-cols-4 tablet:grid-cols-3 phone:grid-cols-3 phone:gap-1 tablet:gap-1 tabletlg:gap-2 '>
            <div>         
             <div className='h-full '>
             <div className="overflow-hidden recentcard ">
